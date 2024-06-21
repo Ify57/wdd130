@@ -1,0 +1,19 @@
+aside{
+    width:auto;
+    margin: 10px;
+    border: 1px solid rgb(255, 251, 251);
+    background: #e9d8d8;
+    color: hsla(200,0%,0%,.7);
+}
+aside img{
+    width: 200px;
+}
+main img{
+    width: 150px;
+}
+p{padding: 0%;}
+footer{
+    margin-top: 100px;
+    border-top: 1px solid saddlebrown;
+    text-align: center;
+}
