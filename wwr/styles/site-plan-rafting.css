@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+ES+Deco:wght@100..400&display=swap');
+/* #232E21 background
+#FBFAF8 colore */
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root{
+    --primary-color:#1A3A3A;
+    --secondry-color:#FBFAF8;
+    --accent-color:#F2F4F3;
+    --heading-font:'Playwrite+ES+Deco',serif;
+    --paragraph-font: 'Open+Sans', sans serif;
+
+    --nav-background-color: #FF495C;
+    --nav-link-color: #CFDEE7;
+
+    --nav-hover-background-color: #18020C;
+    --nav-hover-link-color: #92B4F4;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--paragraph-font);
+    color: var(--primary-color)
+}
+header{
+    padding: 20px;
+    background-color: var(--nav-background-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    display: flex;
+    font-size: 1.2rem;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+   color: var(--secondry-color)
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background: var(--nav-hover-background-color);
+}
