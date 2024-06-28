@@ -21,3 +21,15 @@ footer{
 main{
     max-width: 840px;
 }
+
+nav{
+    background-color: var(--nav-background-color);
+    display: flex;
+    font-size: 1.2rem;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
