@@ -33,3 +33,6 @@ nav a{
     text-decoration: none;
     padding: 1rem;
 }
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
