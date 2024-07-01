@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+ES+Deco:wght@100..400&display=swap');
-/* #232E21 background
-#FBFAF8 colore */
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
