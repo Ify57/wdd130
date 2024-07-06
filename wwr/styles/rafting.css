@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#1A3A3A;
+    --secondary-color:#FBFAF8;
+    --accent1-color:#F2F4F3;
+    --heading-font:'Playwrite+ES+Deco',serif;
+    --paragraph-font: 'Open+Sans', sans serif;
+
+    --nav-background-color: #FF495C;
+    --nav-link-color: #CFDEE7;
+
+    --nav-hover-background-color: #18020C;
+    --nav-hover-link-color: #92B4F4;
+}
+header{
+    display: flex;
+    background: var(--nav-hover-background-color);
+    color: var(--primary-colora)
+}
