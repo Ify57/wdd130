@@ -135,3 +135,7 @@ button{
 button:checked{
     background: #bcbcbc;
 }
+.p{
+    margin: 0%;
+    padding: 0%;
+}
