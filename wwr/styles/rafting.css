@@ -20,7 +20,12 @@
 header{
     display: flex;
     background: var(--nav-hover-background-color);
-    color: var(--primary-colora)
+    color: var(--primary-colora);
+    padding: 20px;
+    background-color: var(--nav-background-color);
+    display: flex;
+    padding: 10PX 0 10PX 30px;
+    justify-content: space-between;
 }
 body{
     font-family: var(--paragraph-font);
@@ -46,13 +51,6 @@ h1,h2,h3,h4,h5,h6{
     color: var(--primary-color)
 }
 
-header{
-    padding: 20px;
-    background-color: var(--nav-background-color);
-    display: flex;
-    padding: 10PX 0 10PX 30px;
-    justify-content: space-between;
-}
 p{
     padding: 25px;
 }
@@ -135,6 +133,7 @@ h2 .overview{
     width: 100px;
     height: 100px;
 }
+
 footer{
     background: var(--nav-hover-link-color);
     height: 30px
@@ -162,3 +161,4 @@ button:checked{
     margin: 0%;
     padding: 0%;
 }
+
