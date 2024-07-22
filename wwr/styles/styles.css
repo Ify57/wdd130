@@ -103,16 +103,36 @@ footer{
     /* background: red; */
     padding: 20px 0 5px 0;
 }
-.successful_trips,.equipments{
+.successful_trips{
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 10px; 
+    text-justify: auto;
 }
 .successful_trips img,.equipments img{
     width: 400px;
     height: 400px;
+}
+p{
+    max-width: 400px;
+    text-align: justify;
+}
+.container{
+    padding: 10px;
+}
+#btn{
+    background-color: transparent;
+    color: #000;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table, td{
+    border: 1px solid #000;
+}
+.table{
+    display: flex;
+    justify-content: center;
 }
