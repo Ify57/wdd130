@@ -63,7 +63,7 @@ nav a:hover{
 }
 button{
     /* background: rgba(0, 0, 0,.1) transparent; */
-    background: rgba(0, 0, 0,.4);
+    background: rgba(0, 0, 0,.8);
     color: #CFDEE7;
     padding: 15px;
     border-radius: 15%;
@@ -135,4 +135,20 @@ table, td{
 .table{
     display: flex;
     justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form h2{
+    padding: 5px;
+}
+form input{
+    margin: 5px;
+}
+#h1{
+    color: #CFDEE7;
+    max-width: 200px;
 }
